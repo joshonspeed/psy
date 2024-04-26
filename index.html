@@ -6,6 +6,10 @@
 <title>Random Psych Episode Generator</title>
 <link rel="icon" href="icon.jpg"> <!-- Specify your favicon (app icon) here -->
 <style>
+  * {
+      touch-action: manipulation;
+  }
+
 body {
 overflow: hidden;
   font-family: Arial, sans-serif;
@@ -32,7 +36,7 @@ overflow: hidden;
 </style>
 </head>
 <body>
-<img src="header.png" alt="Psych Logo" style="width: 400px; margin-top: 200px; margin-bottom: 60px;"> <!-- Header image -->
+<img src="header.png" alt="Psych Logo" style="width: 400px; margin-top: 120px; margin-bottom: 60px;"> <!-- Header image -->
 <button id="buttonImg" onclick="showRandomEpisode()">
   <img src="button.png" alt="Get Random Episode" style="width: 200px;"> <!-- PNG button -->
 </button>
